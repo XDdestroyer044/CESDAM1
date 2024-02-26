@@ -1,27 +1,26 @@
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Feed de Ejemplo</title>
-  <subtitle>Este es un feed de ejemplo</subtitle>
-  <link href="https://ejemplo.com/feed"/>
-  <updated>2024-02-26T12:00:00Z</updated>
-  
-  <entry>
-    <title>Entrada 1</title>
-    <link href="https://ejemplo.com/entrada1"/>
-    <updated>2024-02-26T11:00:00Z</updated>
-    <author>
-      <name>Autor 1</name>
-    </author>
-    <content>Contenido de la entrada 1</content>
-  </entry>
-  
-  <entry>
-    <title>Entrada 2</title>
-    <link href="https://ejemplo.com/entrada2"/>
-    <updated>2024-02-25T10:00:00Z</updated>
-    <author>
-      <name>Autor 2</name>
-    </author>
-    <content>Contenido de la entrada 2</content>
-  </entry>
-</feed>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <image>
+      <title>5.0</title>
+      <link>https://www.rtve.es/play/audios/50/</link>
+    </image>
+    <itunes:owner>
+    <itunes:email>movil.irtve@rtve.es</itunes:email>
+    <itunes:name>RTVE</itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://img2.rtve.es/imagenes/50/1624028284337.jpg"></itunes:image>
+    <itunes:category text="Science"></itunes:category>
+    <itunes:author>Radio 5</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:keywords></itunes:keywords>
+    <itunes:summary>Internet, móviles, relojes, aplicaciones, cultura digital y ocio electrónico.</itunes:summary>
+    <item>
+      <title>5.0 - Homenaje a Mario Tascón - 03/10/23</title>
+      <link>https://www.rtve.es/play/audios/50/50-homenaje-mario-tascon/6980629/</link>
+      <description>validando un xml</description>
+      <enclosure url="https://ztnr.rtve.es/ztnr/6980629.mp3" length="23794897" type="audio/mpeg"></enclosure>
+      <category>Radio/Programas de RNE/Ciencia y Tecnología/5.0</category>
+      <category>Radio/Cadenas/Radio 5</category>
+      <pubDate>Tue, 03 Oct 2023 09:12:40 GMT</pubDate>
+      <guid>https://www.rtve.es/a/6980629/</guid>
