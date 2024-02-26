@@ -1,19 +1,27 @@
-<equipo>
-  <nombre>Real Madrid</nombre>
-  <liga>La Liga</liga>
-  <ciudad>Madrid</ciudad>
-  <jugadores>
-    <jugador>
-      <nombre>Cristiano Ronaldo</nombre>
-      <posicion>Delantero</posicion>
-      <numero>7</numero>
-    </jugador>
-    <jugador>
-      <nombre>Sergio Ramos</nombre>
-      <posicion>Defensa</posicion>
-      <numero>4</numero>
-    </jugador>
-    <!-- Agrega más jugadores aquí -->
-  </jugadores>
-</equipo>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Feed de Ejemplo</title>
+  <subtitle>Este es un feed de ejemplo</subtitle>
+  <link href="https://ejemplo.com/feed"/>
+  <updated>2024-02-26T12:00:00Z</updated>
+  
+  <entry>
+    <title>Entrada 1</title>
+    <link href="https://ejemplo.com/entrada1"/>
+    <updated>2024-02-26T11:00:00Z</updated>
+    <author>
+      <name>Autor 1</name>
+    </author>
+    <content>Contenido de la entrada 1</content>
+  </entry>
+  
+  <entry>
+    <title>Entrada 2</title>
+    <link href="https://ejemplo.com/entrada2"/>
+    <updated>2024-02-25T10:00:00Z</updated>
+    <author>
+      <name>Autor 2</name>
+    </author>
+    <content>Contenido de la entrada 2</content>
+  </entry>
+</feed>
 
