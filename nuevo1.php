@@ -1,3 +1,3 @@
-for $proveedor in doc("index.xml")/datos/proveedores/proveedor
-where $proveedor/estado > 15
-return $proveedor/ciudad/text()
+for $libro in doc("index.xml")/bookstore/book/title
+let $tit := $libro//title
+return $tit
